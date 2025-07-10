@@ -2,8 +2,7 @@ from api import fetch_weather
 from excel import append_to_excel, append_to_csv
 import time
 
-
-
+#CRON
 while True:
     data=fetch_weather()
     append_to_excel(data)
@@ -12,4 +11,5 @@ while True:
     time.sleep(10)
     print("Pobrano nowe dane")
 
-#CRON
+
+

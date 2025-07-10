@@ -27,5 +27,3 @@ def append_to_csv(new_data):
     df_combined.to_csv("dane_pogodowe.csv", index=False)
 
 
-
-
